@@ -56,7 +56,7 @@ const Home = () => {
                                 <div className="col-lg-3 col-6">
                                     {/* small box */}
                                     <div className="small-box bg-info">
-                                        <div className="inner">
+                                        <div className="inner text-center">
                                             <h3>{counted?.totalUsers}</h3>
                                             <p>Users</p>
                                         </div>
@@ -70,7 +70,7 @@ const Home = () => {
                                 <div className="col-lg-3 col-6">
                                     {/* small box */}
                                     <div className="small-box bg-success">
-                                        <div className="inner">
+                                        <div className="inner text-center">
                                             <h3>{counted?.totalTeams}</h3>
                                             <p>Teams</p>
                                         </div>
@@ -84,7 +84,7 @@ const Home = () => {
                                 <div className="col-lg-3 col-6">
                                     {/* small box */}
                                     <div className="small-box bg-warning">
-                                        <div className="inner">
+                                        <div className="inner text-center text-white">
                                             <h3>{counted?.totalPlayer}</h3>
                                             <p>Players</p>
                                         </div>
@@ -98,7 +98,7 @@ const Home = () => {
                                 <div className="col-lg-3 col-6">
                                     {/* small box */}
                                     <div className="small-box bg-danger">
-                                        <div className="inner">
+                                        <div className="inner text-center">
                                             <h3>{counted?.totalOwner}</h3>
                                             <p>Owners</p>
                                         </div>

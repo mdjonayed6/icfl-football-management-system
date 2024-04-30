@@ -48,7 +48,7 @@ const EditPlayer = () => {
                         <option value="Inactive">Inactive</option>
                     </select>
                 </div>
-                <button type="submit" className="btn btn-primary">Save</button>
+                <button type="submit" className="btn btn-success">Save</button>
             </form>
             <ToastContainer />
         </div>

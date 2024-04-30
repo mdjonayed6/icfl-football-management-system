@@ -58,7 +58,7 @@ const PointsTable = () => {
 
     return (
         <div>
-            <h3 className='pl-5'>Points Table</h3>
+            <h3 className='pl-5 mt-4'>Points Table</h3>
             <hr />
             <div className="mb-3 pl-5">
                 <label htmlFor="seasonSelect" className="form-label">Select Season:</label>

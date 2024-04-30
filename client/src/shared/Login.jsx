@@ -66,14 +66,14 @@ const Login = () => {
                                 </div>
                                 {/* /.col */}
                                 <div className="col-4">
-                                    <button type="submit" className="btn btn-primary btn-block">Sign In</button>
+                                    <button type="submit" className="btn btn-success btn-block">Sign In</button>
                                 </div>
                                 {/* /.col */}
                             </div>
                         </form>
 
                         <p className="mb-0">
-                            <Link to="/register" className="text-center">Register a new member</Link>
+                            <Link to="/register" className="text-center">Register as a new member</Link>
                         </p>
                     </div>
                     {/* /.login-card-body */}

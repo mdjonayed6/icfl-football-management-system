@@ -34,7 +34,7 @@ const Section2 = () => {
 
     return (
         <div className="card px-5 py-4">
-            <h2 className="text-center">Upcoming Match</h2>
+            <h2 className="text-center my-4">Upcoming Match</h2>
             <div className="card-body text-center">
                 <div className="row justify-content-around team-vs">
                     <div className="col-md-5">

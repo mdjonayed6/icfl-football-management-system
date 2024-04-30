@@ -120,7 +120,7 @@ const PointsTableReport = () => {
                 </select>
             </div>
             <div className="pl-5">
-                <button onClick={handlePrint} className="btn btn-primary">Print as PDF</button>
+                <button onClick={handlePrint} className="btn btn-success">Print as PDF</button>
             </div>
             <div ref={componentRef}>
                 <div className='pl-5'>Season: {season}</div>

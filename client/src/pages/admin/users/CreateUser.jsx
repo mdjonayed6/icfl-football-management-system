@@ -67,7 +67,7 @@ const CreateUser = () => {
             <div className="row justify-content-center">
                 <div className="col-md-8">
                     <div className="card">
-                        <div className="card-header bg-primary text-white">
+                        <div className="card-header bg-success text-white">
                             <h2 className="text-center">Registration Form</h2>
                         </div>
                         <div className="card-body">
@@ -177,7 +177,7 @@ const CreateUser = () => {
                                         />
                                     </div>
                                 </div>
-                                <button type="submit" className="btn btn-primary">Submit</button>
+                                <button type="submit" className="btn btn-success">Submit</button>
                             </form>
                         </div>
                     </div>

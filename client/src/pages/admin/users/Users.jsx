@@ -116,7 +116,7 @@ const Users = () => {
                     className="form-control"
                 />
             </div>
-            <Link to="/dashboard/create-user" className='btn btn-primary mb-3'>Create User</Link>
+            <Link to="/dashboard/create-user" className='btn btn-success mb-3'>Create User</Link>
             <table className="table table-bordered">
                 <thead>
                     <tr>
@@ -137,7 +137,7 @@ const Users = () => {
                             <td>{user.phone}</td>
                             <td>{user.role}</td>
                             <td>
-                                <Link to={`/dashboard/user-details/${user.id}`} className='btn btn-sm btn-primary mr-2'>View</Link>
+                                <Link to={`/dashboard/user-details/${user.id}`} className='btn btn-sm btn-info mr-2'>View</Link>
                                 <Link to={`/dashboard/edit-user/${user.id}`} className='btn btn-sm btn-primary mr-2'>Edit</Link>
                                 {/* Add delete functionality if needed */}
                                 <button onClick={() => deleteUser(user.id)} className='btn btn-sm btn-danger'>Delete</button>

@@ -12,8 +12,8 @@ const Section1 = () => {
                         <div className="col-md-6 text-right">
                             <div className="py-5">
                                 <h1 className="mb-4 text-black" style={{ color: 'black' }}>ICFL 2024</h1>
-                                <p className="mb-4 text-black-50 text-right">The one of the biggest sports festivals take place at IUBAT is football tournaments arranged by different departments. Such occasions keep our campus vibrant and jovial. The university authority encourages and patronizes these sports events to develop social aspects and enhance social awareness among the students.</p>
-                                <Link to="/login" className="btn btn-primary">Get Started</Link>
+                                <p className="mb-4 text-black-50 text-center">The one of the biggest sports festivals take place at IUBAT is football tournaments arranged by different departments. Such occasions keep our campus vibrant and jovial. The university authority encourages and patronizes these sports events to develop social aspects and enhance social awareness among the students.</p>
+                                <Link to="/login" className="btn btn-success py-2">Get Started</Link>
                             </div>
                         </div>
                     </div>

@@ -48,7 +48,7 @@ const HomeFooter = () => {
                 <div className="row mt-4">
                     <div className="col">
                         <p className="text-center text-muted">
-                            All rights reserved Copyright &copy; 2024 || Designed & Developed by <a href="#" target="_blank" className="text-light">Junayed</a>
+                            All rights reserved Copyright &copy; 2024 || Designed & Developed by <a href="https://www.facebook.com/mjbdcom" target="_blank" className="text-light">Jonayed</a>
                         </p>
                     </div>
                 </div>
