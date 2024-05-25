@@ -116,7 +116,7 @@ const Users = () => {
                     className="form-control"
                 />
             </div>
-            <Link to="/dashboard/create-user" className='btn btn-success mb-3'>Create User</Link>
+            {/* <Link to="/dashboard/create-user" className='btn btn-success mb-3'>Create User</Link> */}
             <table className="table table-bordered">
                 <thead>
                     <tr>

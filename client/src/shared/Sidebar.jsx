@@ -211,7 +211,7 @@ const Sidebar = () => {
                     </>
                 }
 
-                {/* For Owner */}
+                {/* For Team Owner */}
                 {
                     myInfo.role == 'owner' &&
                     <>

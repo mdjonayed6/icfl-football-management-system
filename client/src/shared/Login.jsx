@@ -42,7 +42,7 @@ const Login = () => {
                 {/* /.login-logo */}
                 <div className="card">
                     <div className="card-body login-card-body">
-                        <p className="login-box-msg">Sign in to start your session</p>
+                        <p className="login-box-msg">Please Sign in to start your session</p>
                         <form onSubmit={handleSubmit} >
                             <div className="input-group mb-3">
                                 <input type="email" name='email' className="form-control" placeholder="Email" />

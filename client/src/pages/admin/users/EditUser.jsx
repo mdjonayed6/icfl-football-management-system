@@ -126,7 +126,7 @@ const EditUser = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="form-group">
-                            <label htmlFor="photo">Photo</label>
+                            <label htmlFor="photo">Your Photo</label>
                             <input
                                 type="file"
                                 className="form-control-file"
@@ -162,11 +162,11 @@ const EditUser = () => {
                                 onChange={handleChange}
                                 required
                             >
-                                <option value="">Select Role</option>
                                 <option value="admin">Admin</option>
                                 <option value="organizer">Organizer</option>
                                 <option value="player">Player</option>
                                 <option value="owner">Team Owner</option>
+                                <option value="referee">Referee</option>
                             </select>
                         </div>
                     </div>

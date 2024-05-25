@@ -58,7 +58,7 @@ const PendingOrganizer = () => {
                         <th>Email</th>
                         <th>Phone</th>
                         <th>Photo</th>
-                        <th>Uni ID</th>
+                        <th>Uni. ID</th>
                         <th>Role</th>
                         <th>Action</th>
                     </tr>

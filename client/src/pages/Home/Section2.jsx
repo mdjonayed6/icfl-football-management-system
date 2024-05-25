@@ -21,13 +21,13 @@ const Section2 = () => {
     }, []);
 
     if (loading) {
-        return <div>Loading...</div>;
+        return <div>Please Wait, it's loading...</div>;
     }
 
     if (!matchData) {
         return (
             <div className=" px-5 py-4 text-center">
-                <h4>No upcomming match found</h4>
+                <h4>Upcoming Match Not Found</h4>
             </div>
         );
     }

@@ -122,7 +122,7 @@ const CreateUser = () => {
                                     />
                                 </div>
                                 <div className="mb-3">
-                                    <label htmlFor="photo" className="form-label">Photo</label>
+                                    <label htmlFor="photo" className="form-label">Your Photo</label>
                                     <input
                                         type="file"
                                         className="form-control-file"
@@ -146,7 +146,7 @@ const CreateUser = () => {
                                     </select>
                                 </div>
                                 <div className="mb-3">
-                                    <label htmlFor="role" className="form-label">Role</label>
+                                    <label htmlFor="role" className="form-label">Your Role</label>
                                     <select
                                         className="form-control"
                                         id="role"
