@@ -36,14 +36,14 @@
    - helmet
 
 ### Folder Structures
-   - `dist` > compiled the src folder all files
+   - `dist` > compiled the src folder of all files
    - `src` > contains all the important folders
    - `app` > contains middleware, modules, utils
    - `app.ts`> base of the application
    - `server.ts`> server configuration here
    - `utils.ts`> contains important functions
 
-### How to setup the server
+### How to set up the server
 
    - Clone this server
   ```javascript
@@ -54,12 +54,12 @@
   ```javascript
     npm install
   ```
-  - Open `2 terminal` in vs code or in command prompt
+  - Open `2 terminal` in vs code or in the command prompt
   - Setup your Local MySQL server on Xammp with phpMyAdmin
     - Create a database
     - Create a table 
   - `.env` open this file, and configure it
-  - Use the commad to run the server
+  - Use the command to run the server
   ```javascript
     npx tsc --w
   ```
@@ -68,4 +68,4 @@
   ```
 
   #### Thank you
-  2024&copy; Developed by <a href="https://github.com/smmunna">smmunna</a>
+  2024&copy; Developed by <a href="https://github.com/mdjonayed6">Md. Jonayed</a>
